@@ -1,0 +1,8 @@
+[aws]
+ec2-3-231-148-178.compute-1.amazonaws.com
+ec2-3-236-41-57.compute-1.amazonaws.com
+
+[aws:vars]
+ansible_ssh_user=ubuntu
+ansible_ssh_private_key_file=/home/ubuntu/lab_user.pem
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
